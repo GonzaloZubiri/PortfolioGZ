@@ -285,6 +285,8 @@ span {
     width: 45%;
     text-align: left;
   }
+
+  
 }
 
 /* Seccion Servicios */
@@ -363,7 +365,7 @@ span {
   color: #fff;
   max-width: 500px;
   line-height: 65px;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   font-size: 18px;
   /* text-align: center; */
 }
