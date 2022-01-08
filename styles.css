@@ -328,6 +328,11 @@ span {
   transition: all 0.8s;
 }
 
+.box p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .box:hover {
   background-position: left bottom;
   color: white;
@@ -352,6 +357,7 @@ span {
   background-color: rgb(16, 16, 16, 0.9);
 }
 
+
 .contact-section {
   width: 100%;
   display: flex;
@@ -365,8 +371,9 @@ span {
   color: #fff;
   max-width: 500px;
   line-height: 65px;
-  /* padding-left: 50px; */
+  padding-left: 50px;
   font-size: 18px;
+  margin-right: 60px;
   /* text-align: center; */
 }
 
@@ -472,6 +479,61 @@ span {
 .contact-form .send-btn:hover {
   background: #f9004d;
   transition: 0.4s;
+}
+
+
+
+.body-contact {
+  background-color: #191919;
+}
+
+.h1-contact {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #f9004d;
+  font-size: 50px;
+}
+
+.p-contact {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #f9004d;
+  font-size: 35px;
+  margin-bottom: 100px;
+}
+
+.gracias {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.btn-gracias {
+  background: #fcfc;
+  color: #000;
+  border: none;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  transition-property: background;
+  padding: 10px;
+}
+
+.btn-gracias:hover {
+  background: #f9004d;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.logo-gracias {
+  text-align: center;
+  margin-top: 100px;
 }
 
 /*Footer*/
