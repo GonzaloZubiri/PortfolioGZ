@@ -7,7 +7,7 @@ $asunto = $_POST["asunto"];
 $message = $_POST["message"];
 $content = "Name: " . $name . "\nEmail: " . $email . "\nAsunto: " . $asunto . "\nMessage: " . $message; 
 mail($destino,"Asunto", $content);
-// header("Location:gracias.html");
+header("Location:gracias.html");
 
 
 // $email->send();
