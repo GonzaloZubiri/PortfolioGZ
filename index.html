@@ -16,20 +16,34 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./styles.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
     <title>Gonzalo Zubiri</title>
 </head>
 
 <body>
-    <nav class="navbar">
-        <img src="./assets/Logo-Gonzalo1.png" alt="logo" class="logo">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">Acerca de mi</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#services">Servicios</a></li>
-            <li><a href="#contact">Contacto</a></li>
-        </ul>
-    </nav>
+
+    <header>
+        <div class="nav-bar">
+          <img src="./assets/Logo-Gonzalo1.png" alt="logo" class="logo">
+          <div class="navigation">
+            <div class="nav-items">
+              <i class="uil uil-times nav-close-btn"></i>
+              <a href="#home"><i class="uil uil-home"></i>Home</a>
+              <a href="#about"><i class="uil uil-info-circle"></i>Acerca de mi</a>
+              <a href="#portfolio"><i class="uil uil-book-open"></i>Portfolio</a>
+              <a href="#services"><i class="uil uil-web-grid"></i>Servicios</a>
+              <a href="#contact"><i class="uil uil-envelope"></i>Contacto</a>
+            </div>
+          </div>
+          <i class="uil uil-apps nav-menu-btn"></i>
+        </div>
+        <div class="scroll-indicator-container">
+          <div class="scroll-indicator-bar"></div>
+        </div>
+      </header>
 
     <section id="home">
         <div class="content">
@@ -199,6 +213,7 @@
     </footer>
 
 
+    <script src="./app.js"></script>
 </body>
 
 </html>
